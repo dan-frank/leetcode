@@ -16,7 +16,7 @@ This is a tracking system for all the leetcode questions I have answered
 
 > ⚠️  1 / 1369 questions in progress
 
-| Completed | Name | Difficulty | File | Language | Leetcode Link | Solved on |
+| Completed | Name | Difficulty | File | Language | Leetcode Link | Finished |
 | --- | --- | --- | --- | --- | --- | --- |
 | ✅ | Fizz Buzz | Easy | [File](easy/fizzbuzz.java) | Java | [Link](https://leetcode.com/problems/fizz-buzz/) | 2020-03-05 |
 | ✅ | First Unique Character in a String | Easy | [File](easy/firstUniqueCharInString.java) | Java | [Link](https://leetcode.com/problems/first-unique-character-in-a-string/) | 2020-03-05 |
