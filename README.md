@@ -6,5 +6,5 @@ This is a tracking system for all the leetcode questions I have answered
 
 ### Easy
 
-- [x] [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) [link](easy/fizzbuzz.java)
-- [x] [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) [link](easy/firstUniqueCharInString.java)
+- [x] [Fizz Buzz](easy/fizzbuzz.java) | [*Leetcode question*](https://leetcode.com/problems/fizz-buzz/)
+- [x] [First Unique Character in a String](easy/firstUniqueCharInString.java) | [*Leetcode question*](https://leetcode.com/problems/first-unique-character-in-a-string/)
