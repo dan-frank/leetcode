@@ -3,10 +3,20 @@
 
 class SumOfTwoIntegers {
     public static void main(String[] args) {
-        System.out.println(getSum(1, 2);
+        System.out.println(getSum(1, 10));
     }
 
+    // Stolen Solution
+    // This uses bitwise operations 
+    // & and ^ and <<
+    // I don't understand...
     public static int getSum(int a, int b) {
-        return 0;
+        while(b != 0){
+            int c = a & b;
+            a = a ^ b;
+            b = c << 1;
+        }
+
+        return a;
     }
 }
