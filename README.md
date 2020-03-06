@@ -4,9 +4,16 @@ This is a tracking system for all the leetcode questions I have answered
 
 ## Progress
 
+| Key | Description |
+| --- | --- |
+| ✅ | Completed |
+| ⚠️ | In progress |
+| ⛔️ | Failed |
+
 > 2 / 1369 questions answered
 
-### Easy
-
-- [x] [Fizz Buzz](easy/fizzbuzz.java) | [*Leetcode question*](https://leetcode.com/problems/fizz-buzz/)
-- [x] [First Unique Character in a String](easy/firstUniqueCharInString.java) | [*Leetcode question*](https://leetcode.com/problems/first-unique-character-in-a-string/)
+| Completed | Name | Difficulty | File | Leetcode Link | Solved on | Last edited |
+| --- | --- | --- | --- | --- | --- | --- |
+| ✅ | Fizz Buzz | Easy | [File](easy/fizzbuzz.java) | [Link](https://leetcode.com/problems/fizz-buzz/) | 2020-03-06 | 2020-03-06 |
+| ✅ | First Unique Character in a String | Easy | [File](easy/firstUniqueCharInString.java) | [Link](https://leetcode.com/problems/first-unique-character-in-a-string/) | 2020-03-06 | 2020-03-06 |
+| ⚠️ | Sum of Two Integers | Easy | File | [link](https://leetcode.com/problems/sum-of-two-integers/) | | |
