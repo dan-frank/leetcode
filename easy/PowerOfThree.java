@@ -29,11 +29,16 @@
     }
 
     public static boolean isPowerOfThree(int n) {
-        if (n == 1)
-            return true;
-        for (int i = 3; i <= n; i*=3)
-            if (i == n)
-                return true;
-        return false;
+        // if < 1 we went too far
+        if (n < 1)
+            return false;
+
+        // if % 3 == 0 then it's divisible by 3 therefore potentially a power of 
+        while (n % 3 == 0)
+            // divide by 3 until we know it's not a power or is equal to 1
+            n /= 3;
+
+        // if == 1 then it is a power of 3!
+        return n == 1;
     }
  }
