@@ -23,3 +23,4 @@ This is a tracking system for all the leetcode questions I have answered
 | ⛔️ | Sum of Two Integers | Easy | [File](easy/SumOfTwoIntegers.java) | Java | [Link](https://leetcode.com/problems/sum-of-two-integers/) | 2020-03-06 |
 | ✅ | Intersection of Two Arrays II | Easy | [File](easy/IntersectionOfArraysII.java) | Java | [Link](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 2020-03-06 |
 | ✅ | Reverse String | Easy | [File](easy/ReverseString.java) | Java | [Link](https://leetcode.com/problems/reverse-string/) | 2020-03-06 |
+| ⚠️  | Power of Three | Easy | [File](easy/PowerOfThree.java) | Java | [Link](https://leetcode.com/problems/power-of-three/) | |
