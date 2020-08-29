@@ -10,7 +10,7 @@ This is a tracking system for all the leetcode questions I have answered
 | ⚠️ | In progress |
 | ⛔️ | Failed |
 
-> ✅ 5 / 1369 questions answered
+> ✅ 6 / 1369 questions answered
 
 > ⛔️ 1 / 1369 questions failed
 
@@ -24,4 +24,5 @@ This is a tracking system for all the leetcode questions I have answered
 | [350](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | ✅ | Intersection of Two Arrays II | Easy | [File](easy/IntersectionOfArraysII.java) | Java | 2020-03-06 |
 | [344](https://leetcode.com/problems/reverse-string/) | ✅ | Reverse String | Easy | [File](easy/ReverseString.java) | Java | 2020-03-06 |
 | [326](https://leetcode.com/problems/power-of-three/) | ✅ | Power of Three | Easy | [File](easy/PowerOfThree.java) | Java | 2020-03-07 |
-| [283](https://leetcode.com/problems/move-zeroes/) | ⚠️ | Move Zeroes | Easy | | | |
+| [283](https://leetcode.com/problems/move-zeroes/) | ✅ | Move Zeroes | Easy | [File](easy/MoveZeroes.java) | Java | 2020-08-29 |
+| [136](https://leetcode.com/problems/single-number/) | ⚠️ | Single Number | Easy | | | |
