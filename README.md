@@ -14,7 +14,7 @@ This is a tracking system for all the leetcode questions I have answered
 
 > ⛔️ 1 / 1369 questions failed
 
-> ⚠️  1 / 1369 questions in progress
+> ⚠️  2 / 1369 questions in progress
 
 | ID | Status | Name | Difficulty | File | Language | Attempted | Completed |
 | --- | --- | --- | --- | --- | --- | --- | --- |
