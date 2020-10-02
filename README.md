@@ -4,11 +4,11 @@ This is a tracking system for all the leetcode questions I have answered
 
 ## Progress
 
-| Key | Description | Questions |
+| Key | Description | Completed |
 | --- | --- | --- |
-| ✅ | Completed | 6 answered |
-| ⚠️ | In progress | 2 in progress |
-| ⛔️ | Failed | 1 failed |
+| ✅ | Completed | 6 |
+| ⚠️ | In progress | 2 |
+| ⛔️ | Failed | 1 |
 
 | ID | Status | Name | Difficulty | File | Language | Attempted | Completed |
 | --- | --- | --- | --- | --- | --- | --- | --- |
