@@ -31,6 +31,10 @@ class AddTwoNumbers {
         l1.val += l2.val;
         if (l1.next != null && l2.next != null)
             addTwoNumbers(l1.next, l2.next);
+        if (l1.val > 9) {
+            l1.val -= 10;
+            l1.next.val += 1;
+        }
         return l1;
     }
 }
