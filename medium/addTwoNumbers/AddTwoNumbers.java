@@ -14,6 +14,10 @@ class AddTwoNumbers {
         System.out.println("");
         printList(l2);
         System.out.println("");
+
+        ListNode l3 = addTwoNumbers(l1, l2);
+        printList(l3);
+        System.out.println("");
     }
 
     public static void printList(ListNode root) {
@@ -21,6 +25,13 @@ class AddTwoNumbers {
             printList(root.next);
         }
         System.out.print(root.val);
+    }
+
+    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        l1.val += l2.val;
+        if (l1.next != null && l2.next != null)
+            addTwoNumbers(l1.next, l2.next);
+        return l1;
     }
 }
 
