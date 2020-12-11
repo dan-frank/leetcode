@@ -21,3 +21,4 @@ This is a tracking system for all the leetcode questions I have answered
 | [283](https://leetcode.com/problems/move-zeroes/) | ✅ | Move Zeroes | Easy | [File](easy/MoveZeroes.java) | Java | 2020-08-29 | 2020-08-29 |
 | [136](https://leetcode.com/problems/single-number/) | ⚠️ | Single Number | Easy | | | | |
 | [27](https://leetcode.com/problems/remove-element/) | ⚠️ | Remove Element | Easy | | | | |
+| [2](https://leetcode.com/problems/add-two-numbers/) | ⚠️ | Add Two Numbers | Medium | | | | |
