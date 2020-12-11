@@ -7,7 +7,7 @@ This is a tracking system for all the leetcode questions I have answered
 | Key | Description | Completed |
 | --- | --- | --- |
 | ✅ | Completed | 6 |
-| ⚠️ | In progress | 2 |
+| ⚠️ | In progress | 3 |
 | ⛔️ | Failed | 1 |
 
 | ID | Status | Name | Difficulty | File | Language | Attempted | Completed |
