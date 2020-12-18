@@ -3,7 +3,7 @@
 
 import java.util.Arrays;
 
-class firstUniqueCharInString {
+class FirstUniqueCharInString {
     public static void main(String args[]) {
         String s = "leetcode";
         System.out.println(firstChar(s));
