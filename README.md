@@ -22,4 +22,4 @@ This is a tracking system for all the leetcode questions I have answered
 | [136](https://leetcode.com/problems/single-number/) | ⚠️ | Single Number | 🟢 Easy | | | | |
 | [27](https://leetcode.com/problems/remove-element/) | ⚠️ | Remove Element | 🟢 Easy | | | | |
 | [2](https://leetcode.com/problems/add-two-numbers/) | ✅ | Add Two Numbers | 🟠 Medium | [File](medium/addTwoNumbers/AddTwoNumbers.java) | Java | 2020-12-11 | 2020-12-11 |
-| [1534](https://leetcode.com/problems/count-good-triplets/) | ⚠️ | Count Good Triplets | 🟢 Easy | | | 2020-12-13 | |
+| [1534](https://leetcode.com/problems/count-good-triplets/) | ✅ | Count Good Triplets | 🟢 Easy |[File](easy/countGoodTriplets/CountGoodTriplets.java) | Java | 2020-12-13 | 2020-12-18 |
