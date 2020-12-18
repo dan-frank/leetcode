@@ -1,14 +1,16 @@
 # Leetcode questions
 
-This is a tracking system for all the leetcode questions I have answered
+Personal refereance for answered, unanswered, and failed leetcode questions that I have attempted or want to attempt.
 
-## Progress
+## Key
 
 | Key | Description | Completed |
 | --- | --- | --- |
 | ✅ | Completed | 7 |
 | ⚠️ | In progress | 2 |
 | ⛔️ | Failed | 1 |
+
+## Progress Table
 
 | ID | Status | Name | Difficulty | File | Language | Attempted | Completed |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,3 +25,5 @@ This is a tracking system for all the leetcode questions I have answered
 | [27](https://leetcode.com/problems/remove-element/) | ⚠️ | Remove Element | 🟢 Easy | | | | |
 | [2](https://leetcode.com/problems/add-two-numbers/) | ✅ | Add Two Numbers | 🟠 Medium | [File](medium/addTwoNumbers/AddTwoNumbers.java) | Java | 2020-12-11 | 2020-12-11 |
 | [1534](https://leetcode.com/problems/count-good-triplets/) | ✅ | Count Good Triplets | 🟢 Easy |[File](easy/countGoodTriplets/CountGoodTriplets.java) | Java | 2020-12-13 | 2020-12-18 |
+
+*All questions have been answered by me and me alone. Please only use these for referance and not to cheat.*
