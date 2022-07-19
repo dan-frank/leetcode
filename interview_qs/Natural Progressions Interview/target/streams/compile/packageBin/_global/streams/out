@@ -1,0 +1,43 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/ntbvtestdaniellucas_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	timeslots[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/timeslots[0m
+[0m[[0m[0mdebug[0m] [0m[0m	timeslots/Person.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/timeslots/Person.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	timeslots/Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/timeslots/Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	timeslots/TimeSlots.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/timeslots/TimeSlots.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	timeslots/TimeSlots$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/timeslots/TimeSlots$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	timeslots/Person$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/timeslots/Person$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	timeslots/TimeSlots.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/timeslots/TimeSlots.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	notifications[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/notifications[0m
+[0m[[0m[0mdebug[0m] [0m[0m	notifications/Notifications$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/notifications/Notifications$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	notifications/questions.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/notifications/questions.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	notifications/ReadFile$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/notifications/ReadFile$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	notifications/ReadFile.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/notifications/ReadFile.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	notifications/run.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/notifications/run.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	notifications/Notifications.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/notifications/Notifications.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	notifications/Notifications$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/notifications/Notifications$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	notifications/users.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/notifications/users.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	notifications/Notifications$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/notifications/Notifications$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	notifications/Notifications.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/notifications/Notifications.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	notifications/ReadFile.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/notifications/ReadFile.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	notifications/run.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes/notifications/run.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

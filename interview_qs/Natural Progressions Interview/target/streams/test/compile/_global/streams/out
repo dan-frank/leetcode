@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/dan/Desktop/test/task1/src/test/scala/timeslots/TimeSlotsSuite.scala:3:7 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m3 |[0m[33mimport[0m munit.FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m       ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m       Not found: munit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/dan/Desktop/test/task1/src/test/scala/timeslots/TimeSlotsSuite.scala:6:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m    test([31m"Free meetings"[0m) {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m    ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m    Not found: test[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

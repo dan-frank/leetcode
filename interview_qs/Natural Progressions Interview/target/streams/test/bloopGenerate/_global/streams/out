@@ -1,0 +1,4 @@
+[debug] [natural-progressions-test-test] Classpath dependencies List()
+[debug] [natural-progressions-test-test] Dependencies from configurations List(natural-progressions-test)
+[debug] Bloop wrote the configuration of project 'natural-progressions-test-test' to '/Users/dan/Desktop/Natural Progressions Test/.bloop/natural-progressions-test-test.json'
+[success] Generated .bloop/natural-progressions-test-test.json
