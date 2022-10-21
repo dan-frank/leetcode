@@ -21,4 +21,20 @@ object Solution {
           calculate(tail, target, count + 1)
       case None => Array(0, 0)
   }
+
+  /** Doesn't work for negatives
+    */
+  def calculate2(nums: Array[Int], target: Int, count: Int): Array[Int] = {
+    nums.headOption match
+      case Some(head) =>
+        val needle = head - target match
+          case n if n < 0 => n * -1
+          case m          => m
+        val tail = nums.tail
+        if (tail.contains(needle))
+          Array(count, tail.indexWhere(_ == needle) + count + 1)
+        else
+          calculate2(tail, target, count + 1)
+      case None => Array(0, 0)
+  }
 }
