@@ -7,8 +7,8 @@ Archive also includes answered interview questions from my career as a developer
 
 | Key                | Description        | Completed |
 | ------------------ | ------------------ | --------- |
-| :white_check_mark: | Completed          | 7         |
-| :warning:          | In progress        | 4         |
+| :white_check_mark: | Completed          | 8         |
+| :warning:          | In progress        | 3         |
 | :no_entry:️         | Failed             | 1         |
 | :green_circle:     | Easy Question      | 11        |
 | :orange_circle:    | Medium Question    | 1         |
@@ -34,6 +34,6 @@ Archive also includes answered interview questions from my career as a developer
 | N/A                                                                      | :white_check_mark:️ | Concept of Availability            | :speaking_head: Interview | [File](_interview/naturalTransformationsBV/src/main/scala/timeslots/TimeSlots.scala)         | Scala    | 2022-07-10 | 2022-07-10 |
 | N/A                                                                      | :white_check_mark:️ | User Notifications                 | :speaking_head: Interview | [File](_interview/naturalTransformationsBV/src/main/scala/notifications/Notifications.scala) | Scala    | 2022-07-10 | 2022-07-10 |
 | [1](https://leetcode.com/problems/two-sum/)                              | :warning:          | Two Sum                            | :green_circle: Easy       | [File](easy/twoSum/TwoSum.java)                                                              | Java     | 2021-01-15 |            |
-| [1](https://leetcode.com/problems/two-sum/)                              | :warning:          | Two Sum                            | :green_circle: Easy       | [File](easy/twoSum/TwoSum.scala)                                                             | Scala    | 2022-10-21 | 2022-10-21 |
+| [1](https://leetcode.com/problems/two-sum/)                              | :white_check_mark: | Two Sum                            | :green_circle: Easy       | [File](easy/twoSum/TwoSum.scala)                                                             | Scala    | 2022-10-21 | 2022-10-21 |
 
 _All questions have been answered by me and me alone; shared to be used for referance._
