@@ -1,4 +1,11 @@
+package easy.twoSum
+
+/** QUESTION: Given an array of integers nums and an integer target, return
+  * indices of the two numbers such that they add up to target.
+  */
 object Solution {
+  def apply(nums: Array[Int], target: Int): Array[Int] = twoSum(nums, target)
+
   def twoSum(nums: Array[Int], target: Int): Array[Int] = {
     calculate(nums, target, 0)
   }
