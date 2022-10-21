@@ -1,2 +1,5 @@
 // java classes
 *.class
+
+# Mac
+.DS_STORE
