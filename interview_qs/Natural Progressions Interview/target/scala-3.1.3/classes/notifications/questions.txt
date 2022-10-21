@@ -1,5 +1,0 @@
-1,Maecenas auctor at lorem in ornare,scala|java
-2,Etiam pulvinar velit in dui gravida vestibulum vitae at metus,scala
-3,Proin consequat, erat a pellentesque imperdiet, dolor lectus interdum felis,html|css
-4,Cras gravida eros et turpis ornare sagittis,java
-5,Morbi lacinia lacus quis tortor ornare,scala

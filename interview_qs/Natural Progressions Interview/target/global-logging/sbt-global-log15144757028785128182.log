@@ -1,7 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(e4597e11-2bac-45bd-a561-0f1c52d68f22), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/dan/Desktop/Natural Progressions Test/target/scala-3.1.3/classes ...[0m
-[0m[[0m[0minfo[0m] [0m[0mPassed: Total 6, Failed 0, Errors 0, Passed 6[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 27 Jun 2022, 21:23:50[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
