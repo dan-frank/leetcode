@@ -10,9 +10,7 @@ Languages in other solutions will need to be compiled manually, and have not bee
 
 You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt test` and `sbt console` will start a Scala 3 REPL.
 
-## Progress Table
-
-### Key
+## Archive Key
 
 | Key                | Description        | Completed |
 | ------------------ | ------------------ | --------- |
@@ -23,6 +21,8 @@ You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt t
 | :orange_circle:    | Medium Question    | 1         |
 | :red_circle:       | Hard Question      | 0         |
 | :speaking_head:    | Interview Question | 3         |
+
+## Archive
 
 | ID                                                                       | Status             | Name                               | Difficulty                | File                                                                                                       | Language | Attempted  | Completed  |
 | ------------------------------------------------------------------------ | ------------------ | ---------------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------- | -------- | ---------- | ---------- |
