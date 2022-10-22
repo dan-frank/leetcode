@@ -14,7 +14,7 @@ package easy.romanToInteger
   * | D      | 500   |
   * | M      | 1000  |
   *
-  * NOTE: If smaller numeral (of at most two "levels"") is before larger,
+  * NOTE: If smaller numeral (of at most two "levels") is before larger,
   * subtract it from larger i.e.:
   *
   * | Symbol | Value |
