@@ -50,19 +50,6 @@ object Solution {
     "CM" -> 900
   )
 
-  /** Slower than `calculateLinear`.
-    */
-  def calculateReverse(s: String): Int =
-    def solve(numerals: String, prev: Int = 0): Int =
-      if numerals.length == 0 then 0
-      else
-        val int = romanInts(numerals(0).toString)
-        if int < prev then solve(numerals.tail, int) - int
-        else solve(numerals.tail, int) + int
-    solve(s.reverse)
-
-  /** Slightly slower than `calculateFold`.
-    */
   def calculateLinear(s: String): Int =
     def solve(numerals: List[String]): Int =
       if numerals.length == 0 then 0
@@ -76,6 +63,15 @@ object Solution {
         )
       else romanIntsPlus(numerals.head) + solve(numerals.tail)
     solve(s.split("").toList)
+
+  def calculateReverse(s: String): Int =
+    def solve(numerals: String, prev: Int = 0): Int =
+      if numerals.length == 0 then 0
+      else
+        val int = romanInts(numerals(0).toString)
+        if int < prev then solve(numerals.tail, int) - int
+        else solve(numerals.tail, int) + int
+    solve(s.reverse)
 
   def calculateFold(s: String): Int =
     val numeralPairs = ((s zip s.tail).reverse :+ (s(s.length - 1), ""))

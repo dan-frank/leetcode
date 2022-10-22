@@ -8,14 +8,10 @@ object Solution {
 
   def singleNumber(nums: Array[Int]): Int = calculateXorFold(nums)
 
-  /** Slowest solution.
-    */
   def calculateFilter(nums: Array[Int]): Int =
     if !nums.tail.contains(nums.head) then nums.head
     else calculateFilter(nums.filter(_ != nums.head))
 
-  /** Slightly better performance than `calculateFilter`.
-    */
   def calculateSort(nums: Array[Int]): Int =
     def find(arr: Array[Int], previous: Option[Int] = None): Int =
       if arr.length == 1 then arr.head
@@ -25,8 +21,6 @@ object Solution {
       else arr.head
     find(nums.sorted)
 
-  /** Slightly better performance than `calculateSort`.
-    */
   def calculatePop(
       nums: Array[Int],
       found: Map[Int, Int] = Map.empty,
@@ -41,9 +35,7 @@ object Solution {
         head + 1
       )
 
-  /** Slightly more memory efficient than `calculatePop`.
-    *
-    * Resource:
+  /** Resource:
     *   - https://leetcode.com/problems/single-number/solutions/1771771/think-it-through-time-o-n-space-o-1-python-explained/comments/1476373
     *   - https://leetcode.com/problems/single-number/solutions/1772139/c-explained-everything-w-why-xor-works-brute-force-to-optimized-step-by-step-dry-run/
     */
@@ -51,8 +43,6 @@ object Solution {
     if nums.length == 1 then nums.head
     else nums.head ^ calculateXor(nums.tail)
 
-    /** Faster than `calculateXor`.
-      */
   def calculateXorFold(nums: Array[Int]): Int =
     nums.foldLeft(0)((total, head) => total ^ head)
 }
