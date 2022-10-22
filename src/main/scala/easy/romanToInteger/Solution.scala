@@ -29,5 +29,30 @@ package easy.romanToInteger
 object Solution {
   def apply(s: String): Int = romanToInt(s)
 
-  def romanToInt(s: String): Int = ???
+  def romanToInt(s: String): Int = calculateLinear(s)
+
+  val romanInts: Map[String, Int] = Map(
+    "I" -> 1,
+    "IV" -> 4,
+    "V" -> 5,
+    "IX" -> 9,
+    "X" -> 10,
+    "XL" -> 40,
+    "L" -> 50,
+    "XC" -> 90,
+    "C" -> 100,
+    "CD" -> 400,
+    "D" -> 500,
+    "CM" -> 900,
+    "M" -> 1000
+  )
+
+  def calculateLinear(s: String): Int =
+    def solve(numerals: List[String]): Int =
+      if numerals.length == 0 then 0
+      else if numerals.length == 1 then romanInts(numerals.head)
+      else if romanInts(numerals.head) < romanInts(numerals.tail.head)
+      then romanInts(numerals.take(2).mkString("")) + solve(numerals.tail.tail)
+      else romanInts(numerals.head) + solve(numerals.tail)
+    solve(s.split("").toList)
 }
