@@ -29,30 +29,60 @@ package easy.romanToInteger
 object Solution {
   def apply(s: String): Int = romanToInt(s)
 
-  def romanToInt(s: String): Int = calculateLinear(s)
+  def romanToInt(s: String): Int = calculateFold(s)
 
   val romanInts: Map[String, Int] = Map(
     "I" -> 1,
-    "IV" -> 4,
     "V" -> 5,
-    "IX" -> 9,
     "X" -> 10,
-    "XL" -> 40,
     "L" -> 50,
-    "XC" -> 90,
     "C" -> 100,
-    "CD" -> 400,
     "D" -> 500,
-    "CM" -> 900,
     "M" -> 1000
   )
 
+  val romanIntsPlus: Map[String, Int] = romanInts ++ Map(
+    "IV" -> 4,
+    "IX" -> 9,
+    "XL" -> 40,
+    "XC" -> 90,
+    "CD" -> 400,
+    "CM" -> 900
+  )
+
+  /** Slower than `calculateLinear`.
+    */
+  def calculateReverse(s: String): Int =
+    def solve(numerals: String, prev: Int = 0): Int =
+      if numerals.length == 0 then 0
+      else
+        val int = romanInts(numerals(0).toString)
+        if int < prev then solve(numerals.tail, int) - int
+        else solve(numerals.tail, int) + int
+    solve(s.reverse)
+
+  /** Slightly slower than `calculateFold`.
+    */
   def calculateLinear(s: String): Int =
     def solve(numerals: List[String]): Int =
       if numerals.length == 0 then 0
-      else if numerals.length == 1 then romanInts(numerals.head)
-      else if romanInts(numerals.head) < romanInts(numerals.tail.head)
-      then romanInts(numerals.take(2).mkString("")) + solve(numerals.tail.tail)
-      else romanInts(numerals.head) + solve(numerals.tail)
+      else if numerals.length == 1 then romanIntsPlus(numerals.head)
+      else if romanIntsPlus(numerals.head) < romanIntsPlus(
+          numerals.tail.head
+        )
+      then
+        romanIntsPlus(numerals.take(2).mkString("")) + solve(
+          numerals.tail.tail
+        )
+      else romanIntsPlus(numerals.head) + solve(numerals.tail)
     solve(s.split("").toList)
+
+  def calculateFold(s: String): Int =
+    val numeralPairs = ((s zip s.tail).reverse :+ (s(s.length - 1), ""))
+    numeralPairs.foldLeft(0) { (total, pair) =>
+      val numeral = romanInts.getOrElse(pair._1.toString, 0)
+      val previous = romanInts.getOrElse(pair._2.toString, 0)
+      if (numeral < previous) total - numeral
+      else total + numeral
+    }
 }
