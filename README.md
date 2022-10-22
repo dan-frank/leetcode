@@ -14,8 +14,8 @@ You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt t
 
 | :old_key:          | Description        | Completed |
 | ------------------ | ------------------ | --------- |
-| :white_check_mark: | Completed          | 13        |
-| :construction:     | In Progress        | 2         |
+| :white_check_mark: | Completed          | 14        |
+| :construction:     | In Progress        | 1         |
 | :x:                | Failed             | 0         |
 | :green_circle:     | Easy Question      | 11        |
 | :orange_circle:    | Medium Question    | 1         |
@@ -33,7 +33,6 @@ You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt t
 | [344](https://leetcode.com/problems/reverse-string/)                     | :white_check_mark: | Reverse String                     | :green_circle:  | [File](src/main/scala/easy/reverseString/ReverseString.java)                                               | Java     | 2020-03-06 | 2020-03-06 |
 | [326](https://leetcode.com/problems/power-of-three/)                     | :white_check_mark: | Power of Three                     | :green_circle:  | [File](src/main/scala/easy/powerOfThree/PowerOfThree.java)                                                 | Java     | 2020-03-07 | 2020-03-07 |
 | [283](https://leetcode.com/problems/move-zeroes/)                        | :white_check_mark: | Move Zeroes                        | :green_circle:  | [File](src/main/scala/easy/moveZeroes/MoveZeroes.java)                                                     | Java     | 2020-08-29 | 2020-08-29 |
-| [136](https://leetcode.com/problems/single-number/)                      | :construction:     | Single Number                      | :green_circle:  | [File](src/main/scala/easy/singleNumber/Solution.scala)                                                    | Scala    | 2022-10-22 |            |
 | [27](https://leetcode.com/problems/remove-element/)                      | :construction:     | Remove Element                     | :green_circle:  |                                                                                                            |          |            |            |
 | [2](https://leetcode.com/problems/add-two-numbers/)                      | :white_check_mark: | Add Two Numbers                    | :orange_circle: | [File](src/main/scala/medium/addTwoNumbers/AddTwoNumbers.java)                                             | Java     | 2020-12-11 | 2020-12-11 |
 | [1534](https://leetcode.com/problems/count-good-triplets/)               | :white_check_mark: | Count Good Triplets                | :green_circle:  | [File](src/main/scala/easy/countGoodTriplets/CountGoodTriplets.java)                                       | Java     | 2020-12-13 | 2020-12-18 |
@@ -41,5 +40,6 @@ You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt t
 | N/A                                                                      | :white_check_mark:️ | Concept of Availability            | :speaking_head: | [File](src/main/scala/interview/naturalTransformationsBV/src/main/scala/timeslots/TimeSlots.scala)         | Scala    | 2022-07-10 | 2022-07-10 |
 | N/A                                                                      | :white_check_mark:️ | User Notifications                 | :speaking_head: | [File](src/main/scala/interview/naturalTransformationsBV/src/main/scala/notifications/Notifications.scala) | Scala    | 2022-07-10 | 2022-07-10 |
 | [1](https://leetcode.com/problems/two-sum/)                              | :white_check_mark: | Two Sum                            | :green_circle:  | [File](src/main/scala/easy/twoSum/Solution.scala)                                                          | Scala    | 2022-10-21 | 2022-10-21 |
+| [136](https://leetcode.com/problems/single-number/)                      | :white_check_mark: | Single Number                      | :green_circle:  | [File](src/main/scala/easy/singleNumber/Solution.scala)                                                    | Scala    | 2022-10-22 | 2022-10-22 |
 
 _All questions have been answered by me and me alone; shared to be used for referance._
