@@ -12,11 +12,11 @@ You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt t
 
 ## Archive Key
 
-| Key                | Description        | Completed |
+| Key :old_key:      | Description        | Completed |
 | ------------------ | ------------------ | --------- |
 | :white_check_mark: | Completed          | 13        |
-| :warning:          | In progress        | 2         |
-| :no_entry:️         | Failed             | 0         |
+| :construction:     | In Progress        | 2         |
+| :x:                | Failed             | 0         |
 | :green_circle:     | Easy Question      | 11        |
 | :orange_circle:    | Medium Question    | 1         |
 | :red_circle:       | Hard Question      | 0         |
@@ -33,8 +33,8 @@ You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt t
 | [344](https://leetcode.com/problems/reverse-string/)                     | :white_check_mark: | Reverse String                     | :green_circle: Easy       | [File](src/main/scala/easy/reverseString/ReverseString.java)                                               | Java     | 2020-03-06 | 2020-03-06 |
 | [326](https://leetcode.com/problems/power-of-three/)                     | :white_check_mark: | Power of Three                     | :green_circle: Easy       | [File](src/main/scala/easy/powerOfThree/PowerOfThree.java)                                                 | Java     | 2020-03-07 | 2020-03-07 |
 | [283](https://leetcode.com/problems/move-zeroes/)                        | :white_check_mark: | Move Zeroes                        | :green_circle: Easy       | [File](src/main/scala/easy/moveZeroes/MoveZeroes.java)                                                     | Java     | 2020-08-29 | 2020-08-29 |
-| [136](https://leetcode.com/problems/single-number/)                      | :warning:          | Single Number                      | :green_circle: Easy       |                                                                                                            |          |            |            |
-| [27](https://leetcode.com/problems/remove-element/)                      | :warning:          | Remove Element                     | :green_circle: Easy       |                                                                                                            |          |            |            |
+| [136](https://leetcode.com/problems/single-number/)                      | :construction:     | Single Number                      | :green_circle: Easy       |                                                                                                            |          |            |            |
+| [27](https://leetcode.com/problems/remove-element/)                      | :construction:     | Remove Element                     | :green_circle: Easy       |                                                                                                            |          |            |            |
 | [2](https://leetcode.com/problems/add-two-numbers/)                      | :white_check_mark: | Add Two Numbers                    | :orange_circle: Medium    | [File](src/main/scala/medium/addTwoNumbers/AddTwoNumbers.java)                                             | Java     | 2020-12-11 | 2020-12-11 |
 | [1534](https://leetcode.com/problems/count-good-triplets/)               | :white_check_mark: | Count Good Triplets                | :green_circle: Easy       | [File](src/main/scala/easy/countGoodTriplets/CountGoodTriplets.java)                                       | Java     | 2020-12-13 | 2020-12-18 |
 | N/A                                                                      | :white_check_mark:️ | Find Longest Subarray by Sum       | :speaking_head: Interview | [File](src/main/scala/interview/findLongestSubarrayBySum/findLongestSubarrayBySum.c)                       | C        | 2021       | 2021       |
