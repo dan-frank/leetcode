@@ -6,9 +6,8 @@ package easy.twoSum
 object Solution {
   def apply(nums: Array[Int], target: Int): Array[Int] = twoSum(nums, target)
 
-  def twoSum(nums: Array[Int], target: Int): Array[Int] = {
+  def twoSum(nums: Array[Int], target: Int): Array[Int] =
     calculate(nums, target, 0)
-  }
 
   def calculate(nums: Array[Int], target: Int, count: Int): Array[Int] = {
     nums.headOption match

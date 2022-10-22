@@ -1,7 +1,12 @@
-package interview.naturalTransformationsBV.notifications
+package interview.naturalTransformationsBV
 
 import munit.FunSuite
-import ReadFile.{readFileFromResources, splitListStrings}
+
+import interview.naturalTransformationsBV.notifications.Notifications
+import interview.naturalTransformationsBV.notifications.ReadFile.{
+  readFileFromResources,
+  splitListStrings
+}
 
 class NotificationsSuite extends FunSuite:
   test("Scala & Java tagged question returns Scala & Java users") {
