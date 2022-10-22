@@ -1,6 +1,8 @@
-package interview.naturalTransformationsBV.timeslots
+package interview.naturalTransformationsBV
 
 import munit.FunSuite
+
+import interview.naturalTransformationsBV.timeslots.{Person, TimeSlots}
 
 class TimeSlotsSuite extends FunSuite:
   test("Free meetings") {

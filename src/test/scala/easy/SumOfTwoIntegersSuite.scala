@@ -1,6 +1,8 @@
-package easy.sumOfTwoIntegers
+package easy
 
-class SolutionSuite extends munit.FunSuite {
+import easy.sumOfTwoIntegers.Solution
+
+class SumOfTwoIntegersSuite extends munit.FunSuite {
   test("Expect solution 3 from (1,2)") {
     val obtained = Solution(1, 2)
     val expected = 3
