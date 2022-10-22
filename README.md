@@ -15,7 +15,7 @@ You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt t
 | :old_key:          | Description        | Completed |
 | ------------------ | ------------------ | --------- |
 | :white_check_mark: | Completed          | 14        |
-| :construction:     | In Progress        | 1         |
+| :construction:     | In Progress        | 2         |
 | :x:                | Failed             | 0         |
 | :green_circle:     | Easy Question      | 11        |
 | :orange_circle:    | Medium Question    | 1         |
