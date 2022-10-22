@@ -19,9 +19,9 @@ object Solution {
   def calculateSort(nums: Array[Int]): Int =
     def find(arr: Array[Int], previous: Option[Int] = None): Int =
       if arr.length == 1 then arr.head
+      else if arr.head == arr.tail.head then find(arr.tail.tail, Some(arr.head))
       else if previous.fold(false)(_ == arr.head) then
         find(arr.tail, Some(arr.head))
-      else if arr.head == arr.tail.head then find(arr.tail.tail, Some(arr.head))
       else arr.head
     find(nums.sorted)
 
