@@ -29,7 +29,7 @@ package easy.romanToInteger
 object Solution {
   def apply(s: String): Int = romanToInt(s)
 
-  def romanToInt(s: String): Int = calculateFold(s)
+  def romanToInt(s: String): Int = calculateReplace(s)
 
   val romanInts: Map[String, Int] = Map(
     "I" -> 1,
@@ -81,4 +81,20 @@ object Solution {
       if (numeral < previous) total - numeral
       else total + numeral
     }
+
+    /** Not the most versatile solution, but very fast and simple for the
+      * constraints of the problem.
+      *
+      * Source:
+      *   - https://leetcode.com/problems/roman-to-integer/solutions/2428756/python-easily-understood-faster-than-98-less-than-76-o-n/
+      */
+  def calculateReplace(s: String): Int =
+    (s
+      .replace("IV", "IIII")
+      .replace("IX", "VIIII")
+      .replace("XL", "XXXX")
+      .replace("XC", "LXXXX")
+      .replace("CD", "CCCC")
+      .replace("CM", "DCCCC"))
+      .foldLeft(0)((total, next) => total + romanInts(next.toString))
 }
