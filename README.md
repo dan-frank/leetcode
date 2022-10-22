@@ -14,10 +14,10 @@ You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt t
 
 | :old_key:          | Description        | Completed |
 | ------------------ | ------------------ | --------- |
-| :white_check_mark: | Completed          | 14        |
-| :construction:     | In Progress        | 2         |
+| :white_check_mark: | Completed          | 15        |
+| :construction:     | In Progress        | 1         |
 | :x:                | Failed             | 0         |
-| :green_circle:     | Easy Question      | 11        |
+| :green_circle:     | Easy Question      | 12        |
 | :orange_circle:    | Medium Question    | 1         |
 | :red_circle:       | Hard Question      | 0         |
 | :speaking_head:    | Interview Question | 3         |
