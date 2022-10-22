@@ -24,7 +24,7 @@ You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt t
 
 ## Archive
 
-| ID                                                                       | Status             | Name                               | Difficulty      | File                                                                                                       | Language | Attempted  | Completed  |
+| ID                                                                       | Status             | Name                               | Rigor           | File                                                                                                       | Language | Attempted  | Completed  |
 | ------------------------------------------------------------------------ | ------------------ | ---------------------------------- | --------------- | ---------------------------------------------------------------------------------------------------------- | -------- | ---------- | ---------- |
 | [412](https://leetcode.com/problems/fizz-buzz/)                          | :white_check_mark: | Fizz Buzz                          | :green_circle:  | [File](src/main/scala/easy/fizzbuzz/Fizzbuzz.java)                                                         | Java     | 2020-03-05 | 2020-03-05 |
 | [387](https://leetcode.com/problems/first-unique-character-in-a-string/) | :white_check_mark: | First Unique Character in a String | :green_circle:  | [File](src/main/scala/easy/firstUniqueCharInString/FirstUniqueCharInString.java)                           | Java     | 2020-03-05 | 2020-03-05 |
