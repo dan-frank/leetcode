@@ -7,33 +7,35 @@ object Solution {
   def apply(nums: Array[Int], target: Int): Array[Int] = twoSum(nums, target)
 
   def twoSum(nums: Array[Int], target: Int): Array[Int] =
-    calculate(nums, target, 0)
+    calculateContains(nums, target)
 
-  def calculate(nums: Array[Int], target: Int, count: Int): Array[Int] = {
+  def calculateFilter(
+      nums: Array[Int],
+      target: Int,
+      count: Int = 0
+  ): Array[Int] = {
     nums.headOption match
       case Some(head) =>
-        val tail = nums.tail
-        val found = tail.filter(x => head + x == target)
+        val found = nums.tail.filter(x => head + x == target)
         if (found.length > 0)
-          Array(count, tail.indexWhere(_ == found.head) + count + 1)
+          Array(count, nums.tail.indexWhere(_ == found.head) + count + 1)
         else
-          calculate(tail, target, count + 1)
+          calculateFilter(nums.tail, target, count + 1)
       case None => Array(0, 0)
   }
 
-  /** Doesn't work for negatives
-    */
-  def calculate2(nums: Array[Int], target: Int, count: Int): Array[Int] = {
+  def calculateContains(
+      nums: Array[Int],
+      target: Int,
+      count: Int = 0
+  ): Array[Int] = {
     nums.headOption match
       case Some(head) =>
-        val needle = head - target match
-          case n if n < 0 => n * -1
-          case m          => m
-        val tail = nums.tail
-        if (tail.contains(needle))
-          Array(count, tail.indexWhere(_ == needle) + count + 1)
+        val needle = target - head
+        if (nums.tail.contains(needle))
+          Array(count, nums.tail.indexWhere(_ == needle) + count + 1)
         else
-          calculate2(tail, target, count + 1)
+          calculateContains(nums.tail, target, count + 1)
       case None => Array(0, 0)
   }
 }
