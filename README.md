@@ -15,7 +15,7 @@ You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt t
 | :old_key:          | Description        | Completed |
 | ------------------ | ------------------ | --------- |
 | :white_check_mark: | Completed          | 16        |
-| :construction:     | In Progress        | 1         |
+| :construction:     | In Progress        | 2         |
 | :x:                | Failed             | 0         |
 | :green_circle:     | Easy Question      | 12        |
 | :orange_circle:    | Medium Question    | 1         |
@@ -26,6 +26,7 @@ You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt t
 
 | ID                                                                       | Status             | Name                               | Rigor           | File                                                                                                       | Language | Attempted  | Completed  |
 | ------------------------------------------------------------------------ | ------------------ | ---------------------------------- | --------------- | ---------------------------------------------------------------------------------------------------------- | -------- | ---------- | ---------- |
+| [20](https://leetcode.com/problems/valid-parentheses/)                   | :construction:     | Valid Parentheses                  | :green_circle:  | [View](src/main/scala/easy/ValidParenthesesSolution.scala)                                                 | Scala    | 2022-10-23 |            |
 | [14](https://leetcode.com/problems/longest-common-prefix/description/)   | :white_check_mark: | Longest Common Prefix              | :green_circle:  | [View](src/main/scala/easy/LongestCommonPrefixSolution.scala)                                              | Scala    | 2022-10-23 | 2022-10-23 |
 | [13](https://leetcode.com/problems/roman-to-integer/)                    | :white_check_mark: | Roman to Integer                   | :green_circle:  | [View](src/main/scala/easy/RomanToIntegerSolution.scala)                                                   | Scala    | 2022-10-22 | 2022-10-22 |
 | [136](https://leetcode.com/problems/single-number/)                      | :white_check_mark: | Single Number                      | :green_circle:  | [View](src/main/scala/easy/SingleNumberSolution.scala)                                                     | Scala    | 2022-10-22 | 2022-10-22 |
