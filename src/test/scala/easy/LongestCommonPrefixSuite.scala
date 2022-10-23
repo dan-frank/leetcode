@@ -45,9 +45,9 @@ class LongestCommonPrefixSuite extends munit.FunSuite {
     assertEquals(obtained.toSeq, expected.toSeq)
   }
 
-  test("Expect solution \"dogmantalks\" from [\"dogmantalks\"]") {
-    val obtained = Solution(Array("dogmantalks"))
-    val expected = "dogmantalks"
+  test("Expect solution \"dog\" from [\"dog\"]") {
+    val obtained = Solution(Array("dog"))
+    val expected = "dog"
     assertEquals(obtained.toSeq, expected.toSeq)
   }
 
@@ -59,6 +59,24 @@ class LongestCommonPrefixSuite extends munit.FunSuite {
 
   test("Expect solution \"\" from []") {
     val obtained = Solution(Array())
+    val expected = ""
+    assertEquals(obtained.toSeq, expected.toSeq)
+  }
+
+  test("Expect solution \"\" from [\"\",\"\"]") {
+    val obtained = Solution(Array("", ""))
+    val expected = ""
+    assertEquals(obtained.toSeq, expected.toSeq)
+  }
+
+  test("Expect solution \"c\" from [\"cir\",\"car\"]") {
+    val obtained = Solution(Array("cir", "car"))
+    val expected = "c"
+    assertEquals(obtained.toSeq, expected.toSeq)
+  }
+
+  test("Expect solution \"\" from [\"aca\",\"cba\"]") {
+    val obtained = Solution(Array("aca", "cba"))
     val expected = ""
     assertEquals(obtained.toSeq, expected.toSeq)
   }

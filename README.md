@@ -8,7 +8,7 @@ Archive also includes answered interview questions from my career as a developer
 Majority of solutions have been completed with Scala, managed with `sbt`.
 Languages in other solutions will need to be compiled manually, and have not been tested.
 
-You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt test` and `sbt console` will start a Scala 3 REPL.
+You can compile code with `sbt compile`, run it with `sbt run`, test with `sbt test`, and `sbt console` will start a Scala 3 REPL.
 
 ## Archive Key
 
