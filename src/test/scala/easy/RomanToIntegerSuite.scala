@@ -1,6 +1,6 @@
 package easy
 
-import easy.romanToInteger.Solution
+import easy.{RomanToIntegerSolution => Solution}
 
 class RomanToIntegerSuite extends munit.FunSuite {
   test("Expect solution 1 from \"I\"") {

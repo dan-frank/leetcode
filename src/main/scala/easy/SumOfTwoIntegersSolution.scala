@@ -1,4 +1,4 @@
-package easy.sumOfTwoIntegers
+package easy
 
 /** QUESTION: Given two integers a and b, return the sum of the two integers
   * without using the operators + and -.
@@ -7,7 +7,7 @@ package easy.sumOfTwoIntegers
   *   - https://iq.opengenus.org/addition-using-bitwise-operations/
   *   - https://leetcode.com/problems/sum-of-two-integers/solutions/84278/a-summary-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently/
   */
-object Solution {
+object SumOfTwoIntegersSolution {
   def apply(a: Int, b: Int): Int = getSum(a, b)
 
   def getSum(a: Int, b: Int): Int = getSumBitwise(a, b)

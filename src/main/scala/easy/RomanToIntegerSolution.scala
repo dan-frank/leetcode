@@ -1,4 +1,4 @@
-package easy.romanToInteger
+package easy
 
 /** QUESTION: Roman numerals are represented by seven different symbols: `I`,
   * `V`, `X`, `L`, `C`, `D` and `M`. Given a roman numeral, convert it to an
@@ -26,7 +26,7 @@ package easy.romanToInteger
   * | CD     | 400   |
   * | CM     | 900   |
   */
-object Solution {
+object RomanToIntegerSolution {
   def apply(s: String): Int = romanToInt(s)
 
   def romanToInt(s: String): Int = calculateReplace(s)

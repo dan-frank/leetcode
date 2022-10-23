@@ -1,6 +1,6 @@
 package easy
 
-import easy.singleNumber.Solution
+import easy.{SingleNumberSolution => Solution}
 
 class SingleNumberSuite extends munit.FunSuite {
   test("Expect solution 1 from [2,2,1]") {
