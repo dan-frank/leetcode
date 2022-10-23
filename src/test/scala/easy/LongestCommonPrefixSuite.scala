@@ -1,6 +1,6 @@
 package easy
 
-import easy.longestCommonPrefix.Solution
+import easy.{LongestCommonPrefixSolution => Solution}
 
 class LongestCommonPrefixSuite extends munit.FunSuite {
   test("Expect solution \"fl\" from [\"flower\",\"flow\",\"flight\"]") {

@@ -1,9 +1,9 @@
-package easy.singleNumber
+package easy
 
 /** QUESTION: Given a non-empty array of integers `nums`, every element appears
   * twice except for one. Find that single one.
   */
-object Solution {
+object SingleNumberSolution {
   def apply(nums: Array[Int]): Int = singleNumber(nums)
 
   def singleNumber(nums: Array[Int]): Int = calculateXorFold(nums)

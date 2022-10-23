@@ -1,6 +1,6 @@
-package easy.longestCommonPrefix
+package easy
 
-object Solution {
+object LongestCommonPrefixSolution {
   def apply(strs: Array[String]): String = longestCommonPrefix(strs)
 
   def longestCommonPrefix(strs: Array[String]): String =

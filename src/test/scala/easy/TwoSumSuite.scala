@@ -1,6 +1,6 @@
 package easy
 
-import easy.twoSum.Solution
+import easy.{TwoSumSolution => Solution}
 
 class TwoSumSuite extends munit.FunSuite {
   test("Expect solution [0,1] from [1,2,3,4] with target 3") {
