@@ -80,4 +80,10 @@ class LongestCommonPrefixSuite extends munit.FunSuite {
     val expected = ""
     assertEquals(obtained.toSeq, expected.toSeq)
   }
+
+  test("Expect solution \"ab\" from [\"abab\",\"aba\",\"abc\"]") {
+    val obtained = Solution(Array("abab", "aba", "abc"))
+    val expected = "ab"
+    assertEquals(obtained.toSeq, expected.toSeq)
+  }
 }
