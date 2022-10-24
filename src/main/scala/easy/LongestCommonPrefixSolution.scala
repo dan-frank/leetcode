@@ -1,5 +1,8 @@
 package easy
 
+/** QUESTION: Given a string `s`, find the length of the longest substring
+  * without repeating characters.
+  */
 object LongestCommonPrefixSolution {
   def apply(strs: Array[String]): String = longestCommonPrefix(strs)
 
