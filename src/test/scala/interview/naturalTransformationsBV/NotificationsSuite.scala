@@ -2,7 +2,9 @@ package interview.naturalTransformationsBV
 
 import munit.FunSuite
 
-import interview.naturalTransformationsBV.notifications.Notifications
+import interview.naturalTransformationsBV.notifications.{
+  NotificationsSolution => Solution
+}
 import interview.naturalTransformationsBV.notifications.ReadFile.{
   readFileFromResources,
   splitListStrings
@@ -14,7 +16,7 @@ class NotificationsSuite extends FunSuite:
     val questions =
       splitListStrings(readFileFromResources("questions.txt"), ",")
 
-    val notifications = Notifications(users)
+    val notifications = Solution(users)
 
     val expectedUsers: List[List[String]] = List(
       List("1", "Dave", "scala|java"),
@@ -29,7 +31,7 @@ class NotificationsSuite extends FunSuite:
     val questions =
       splitListStrings(readFileFromResources("questions.txt"), ",")
 
-    val notifications = Notifications(users)
+    val notifications = Solution(users)
 
     val expectedUsers: List[List[String]] = List(
       List("2", "Steve", "css")
@@ -43,7 +45,7 @@ class NotificationsSuite extends FunSuite:
     val questions =
       splitListStrings(readFileFromResources("questions.txt"), ",")
 
-    val notifications = Notifications(users)
+    val notifications = Solution(users)
 
     val expectedUsers: List[List[String]] = List(
       List("1", "Dave", "scala|java")

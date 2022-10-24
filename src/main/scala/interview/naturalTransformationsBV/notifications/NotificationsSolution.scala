@@ -12,7 +12,7 @@ import interview.naturalTransformationsBV.notifications.ReadFile.{
   * @param users
   *   a list of users
   */
-class Notifications(users: List[List[String]]) {
+class NotificationsSolution(users: List[List[String]]) {
 
   /** Finds users to notify.
     *
@@ -43,13 +43,3 @@ class Notifications(users: List[List[String]]) {
       println(f"notifying user $name...")
     }
 }
-
-/** Demo | Finding users for questions.
-  */
-// @main
-def run(): Unit =
-  val users = splitListStrings(readFileFromResources("users.txt"), ",")
-  val questions = splitListStrings(readFileFromResources("questions.txt"), ",")
-
-  val notifications = Notifications(users)
-  notifications.notifyUsers(questions.head)

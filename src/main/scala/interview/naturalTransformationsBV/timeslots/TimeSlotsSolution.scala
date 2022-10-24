@@ -11,7 +11,7 @@ import interview.naturalTransformationsBV.timeslots.Person
   * @param person2
   *   one of the people to compare timetable availabilty too
   */
-case class TimeSlots(person1: Person, person2: Person):
+case class TimeSlotsSolution(person1: Person, person2: Person):
   /** Calculates a free meeting slot from the availabiltiy of 2 people. This
     * processes only hours for simplity. We also assume only the use of
     * "working" hours of 09:00 -> 17:00.
