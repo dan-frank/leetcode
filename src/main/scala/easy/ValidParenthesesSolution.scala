@@ -6,7 +6,7 @@ package easy
 object ValidParenthesesSolution {
   def apply(s: String): Boolean = isValid(s)
 
-  def isValid(s: String): Boolean = calculateStackList(s)
+  def isValid(s: String): Boolean = calculateStackListReduced(s)
 
   def calculateStack(s: String): Boolean =
     var stack = scala.collection.mutable.Stack[Char]()
@@ -37,7 +37,7 @@ object ValidParenthesesSolution {
         case _   => false
 
     def solve(stack: List[Char], count: Int = 1): Boolean =
-      if s.length == count then stack.isEmpty
+      if s.length <= count then stack.isEmpty
       else
         s(count) match
           case '(' | '[' | '{' => solve(s(count) +: stack, count + 1)
@@ -49,5 +49,20 @@ object ValidParenthesesSolution {
                 else false
               case None => false
           case _ => s.length == count
-    solve(List(s.head))
+    if s.length % 2 != 0 then false
+    else solve(s.headOption.fold(Nil)(head => List(head)))
+
+  def calculateStackListReduced(s: String): Boolean =
+    val brackets: Map[Char, Char] = Map('(' -> ')', '[' -> ']', '{' -> '}')
+
+    def solve(stack: List[Char], count: Int = 1): Boolean =
+      if s.length <= count then stack.isEmpty
+      else if brackets.contains(s(count)) then
+        solve(s(count) +: stack, count + 1)
+      else if stack.isEmpty then false
+      else if brackets(stack.head) == s(count) then solve(stack.tail, count + 1)
+      else false
+
+    if s.length % 2 != 0 then false
+    else solve(s.headOption.fold(Nil)(head => List(head)))
 }
