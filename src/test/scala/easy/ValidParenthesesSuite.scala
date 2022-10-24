@@ -21,6 +21,12 @@ class ValidParenthesesSuite extends munit.FunSuite {
     assertEquals(obtained, expected)
   }
 
+  test("Expect solution true from \"(((((((((((((((())))))))))))))))\"") {
+    val obtained = Solution("((()))")
+    val expected = true
+    assertEquals(obtained, expected)
+  }
+
   test("Expect solution true from \"([{}])\"") {
     val obtained = Solution("([{}])")
     val expected = true
