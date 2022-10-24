@@ -38,4 +38,14 @@ object MergeTwoSortedListsSolution {
         list2.next = solve(list1, list2.next)
         list2
     solve(list1, list2)
+
+  def calculateLinearFunc(list1: ListNode, list2: ListNode): ListNode =
+    def solve(list1: ListNode, list2: ListNode): ListNode =
+      (list1, list2) match
+        case (null, _) => list2
+        case (_, null) => list1
+        case (l1, l2) =>
+          if l1.x < l2.x then ListNode(l1.x, solve(list1.next, list2))
+          else ListNode(l2.x, solve(list1, list2.next))
+    solve(list1, list2)
 }
