@@ -1,31 +1,11 @@
-// Question - You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+package medium;
 
-class AddTwoNumbers {
-    public static void main(String[] args) {
-        System.out.println("test");
-        
-        ListNode l1 = new ListNode(0);
-
-        ListNode l2 = new ListNode(3);
-        l2 = new ListNode(7, l2);
-
-        printList(l1);
-        System.out.println("+");
-        printList(l2);
-        System.out.println("=");
-
-        ListNode l3 = addTwoNumbers(l1, l2);
-        printList(l3);
-        System.out.println("");
-    }
-
-    public static void printList(ListNode root) {
-        if (root.next != null) {
-            printList(root.next);
-        }
-        System.out.print(root.val + "->");
-    }
-
+/** QUESTION: You are given two non-empty linked lists representing two
+  * non-negative integers. The digits are stored in reverse order, and each of
+  * their nodes contains a single digit. Add the two numbers and return the sum
+  * as a linked list.
+  */
+class AddTwoNumbersSolution {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         l1.val += l2.val;
         if (l1.val > 9) {
