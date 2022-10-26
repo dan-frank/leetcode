@@ -16,10 +16,10 @@ Due to the nature of this project there is no main method, and as such `sbt run`
 
 | :old_key:          | Description        | Completed |
 | ------------------ | ------------------ | --------- |
-| :white_check_mark: | Completed          | 19        |
+| :white_check_mark: | Completed          | 20        |
 | :construction:     | In Progress        | 1         |
 | :x:                | Failed             | 0         |
-| :green_circle:     | Easy Question      | 16        |
+| :green_circle:     | Easy Question      | 17        |
 | :orange_circle:    | Medium Question    | 1         |
 | :red_circle:       | Hard Question      | 0         |
 | :speaking_head:    | Interview Question | 3         |
@@ -28,6 +28,7 @@ Due to the nature of this project there is no main method, and as such `sbt run`
 
 | ID                                                                       | Status             | Name                                | Rigor           | File                                                                                                | Language | Attempted  | Completed  |
 | ------------------------------------------------------------------------ | ------------------ | ----------------------------------- | --------------- | --------------------------------------------------------------------------------------------------- | -------- | ---------- | ---------- |
+| [66](https://leetcode.com/problems/plus-one/)                            | :white_check_mark: | Plus One                            | :green_circle:  | [View](src/main/scala/easy/PlusOneSolution.scala)                                                   | Scala    | 2022-10-26 | 2022-10-26 |
 | [26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | :white_check_mark: | Remove Duplicates from Sorted Array | :green_circle:  | [View](src/main/scala/easy/RemoveDuplicatesFromSortedArraySolution.scala)                           | Scala    | 2022-10-24 | 2022-10-25 |
 | [21](https://leetcode.com/problems/merge-two-sorted-lists/)              | :white_check_mark: | Merge Two Sorted Lists              | :green_circle:  | [View](src/main/scala/easy/MergeTwoSortedListsSolution.scala)                                       | Scala    | 2022-10-24 | 2022-10-24 |
 | [20](https://leetcode.com/problems/valid-parentheses/)                   | :white_check_mark: | Valid Parentheses                   | :green_circle:  | [View](src/main/scala/easy/ValidParenthesesSolution.scala)                                          | Scala    | 2022-10-23 | 2022-10-24 |
