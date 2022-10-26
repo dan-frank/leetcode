@@ -1,16 +1,25 @@
 # Leetcode Questions
 
-Personal refereance for answered, unanswered, and failed leetcode questions that I have attempted or want to attempt.
-Archive also includes answered interview questions from my career as a developer.
+Personal archive for answered, unanswered, and failed leetcode and interview questions that I have attempted or want to attempt.
 
 ## Usage
 
-Majority of solutions have been completed with Scala, managed with `sbt`.
-Languages in other solutions will need to be compiled manually, and have not been tested.
+The best method to use this archive is with the [archive section](#archive).
+Here you can find quick links to my solutions and to the problem itself.
+I have included the name of the Leetcode problem so you can easily find it with a search in your browser of choice.
 
-You can compile code with `sbt compile`, test with `sbt test`, and `sbt console` will start a Scala 3 REPL.
+If you hate documentation, you can also navigate to [`src/main/scala`](src/main/scala) and find all of the solutions.
 
-Due to the nature of this project there is no main method, and as such `sbt run` won't produce any meaningful results.
+I have written test cases for (most of) the solutions, and these can be found under [`src/test/scala`](src/test/scala/).
+
+The majority of solutions have been resolved with Scala, managed and tested with `sbt` (which also handles Java solutions).
+However, a few other languages can be found that cannot be handled by `sbt`; these will need to be run seperately, likely inside the Leetcode editor.
+
+As the archive has been setup with `sbt`, you can use `sbt` commands.
+Compile the code with `sbt compile`, test with `sbt test`, and `sbt console` will start a Scala 3 REPL.
+
+Due to the nature of this project there are no main methods for running the code, and as such `sbt run` won't produce any meaningful results.
+If you want to extend this project yourself, I recommend introducing and running more test cases.
 
 ## Archive Key
 
