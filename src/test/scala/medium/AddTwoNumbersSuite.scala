@@ -4,9 +4,9 @@ import medium.{AddTwoNumbersSolution => Solution, ListNode}
 
 class AddTwoNumbersSuite extends munit.FunSuite {
   extension (ln: ListNode)
-    def listNode2List: List[Int] = {
+    def toList: List[Int] = {
       Option(ln) match {
-        case Some(node) => node.`val` +: node.next.listNode2List
+        case Some(node) => node.`val` +: node.next.toList
         case None       => List.empty
       }
     }
@@ -16,7 +16,7 @@ class AddTwoNumbersSuite extends munit.FunSuite {
     val l2 = ListNode(5, ListNode(6, ListNode(4)))
     val obtained = Solution.addTwoNumbers(l1, l2)
     val expected = ListNode(7, ListNode(0, ListNode(8)))
-    assertEquals(obtained.listNode2List, expected.listNode2List)
+    assertEquals(obtained.toList, expected.toList)
   }
 
   test("Expect solution [0] (0) from [0] + [0]") {
@@ -24,7 +24,7 @@ class AddTwoNumbersSuite extends munit.FunSuite {
     val l2 = ListNode(0)
     val obtained = Solution.addTwoNumbers(l1, l2)
     val expected = ListNode(0)
-    assertEquals(obtained.listNode2List, expected.listNode2List)
+    assertEquals(obtained.toList, expected.toList)
   }
 
   test(
@@ -49,7 +49,7 @@ class AddTwoNumbersSuite extends munit.FunSuite {
         )
       )
     )
-    assertEquals(obtained.listNode2List, expected.listNode2List)
+    assertEquals(obtained.toList, expected.toList)
   }
 
   test("Expect solution [7,3] (37) from [7,3] + [0]") {
@@ -57,6 +57,6 @@ class AddTwoNumbersSuite extends munit.FunSuite {
     val l2 = ListNode(0)
     val obtained = Solution.addTwoNumbers(l1, l2)
     val expected = ListNode(7, ListNode(3))
-    assertEquals(obtained.listNode2List, expected.listNode2List)
+    assertEquals(obtained.toList, expected.toList)
   }
 }
