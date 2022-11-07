@@ -6,17 +6,15 @@ import org.scalacheck.Gen
 import scala.math.pow
 
 class PowXNSuite extends munit.ScalaCheckSuite {
-  override def scalaCheckTestParameters =
-    super.scalaCheckTestParameters
-      .withMinSuccessfulTests(200)
-      .withMaxDiscardRatio(10)
-
-  val powXNDoubleGen: Gen[Double] = Gen.choose(-100.0, 100.0)
-  val powXNIntGen: Gen[Int] = Gen.choose(Int.MinValue, Int.MaxValue)
-  // TODO -10^4 <= x^n <= 10^4
+  val powXNGen: Gen[(Double, Int)] = for {
+    n <- Gen
+      .choose(Int.MinValue, Int.MaxValue)
+    x <- Gen.choose(-100.0, 100.0)
+    // .retryUntil(x => pow(x, n) >= 10000 && pow(x, n) <= 10000)
+  } yield (x, n)
 
   property("Expect custom `pow` solution to find correct answer") {
-    forAll(powXNDoubleGen, powXNIntGen) { (x: Double, n: Int) =>
+    forAll(powXNGen) { case (x: Double, n: Int) =>
       val obtained = Solution(x, n)
       val expected = pow(x, n)
       assertEquals(obtained, expected)
