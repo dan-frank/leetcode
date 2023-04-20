@@ -16,6 +16,7 @@
             jdk
             sbt
             scalafmt
+            scala-cli
           ];
         };
       });
